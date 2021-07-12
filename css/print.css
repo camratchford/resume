@@ -1,0 +1,86 @@
+@media print {
+    /*Thanks for your time reading my resume*/
+
+    @page {
+        margin: 1cm !important;
+
+    }
+
+    .nav, header {
+        display: none !important;
+    }
+
+    *. *:before, *:after {
+        position: relative!important;
+    }
+
+    section {
+        height: 100% !important;
+        position: relative!important;
+    }
+
+    section > div{
+        flex-wrap: nowrap !important;
+        display: block !important;
+        height: min-content !important;
+    }
+
+    .card, div, p, h1, h2, h3, h4, ul, li, a {
+        position: relative !important;
+        height: fit-content;
+        overflow-clip: never;
+    }
+
+
+
+    .card, section  {
+        margin-outside: auto;
+        overflow: visible !important;
+    }
+
+    .card p, h1, h2, h3, h4, ul, li, a {
+        page-break-inside: avoid !important;
+    }
+
+    .breakpoint {
+
+    }
+
+    .page-container {
+        height: min-content !important;
+        align-content: flex-start;
+    }
+
+    #about {
+        position: relative!important;
+        margin-top: 15rem!important;
+    }
+
+    #about, #experience, #education, #skills, #projects, #hobbies {
+        position: relative !important;
+        height: min-content;
+        overflow: visible !important;
+        page-break-after: always;
+    }
+
+    .section-container {
+        height: unset !important;
+        position: relative !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-content: flex-start;
+    }
+
+    .section-title > svg{
+        display: none !important;
+    }
+
+    main.main, header.header footer.footer {
+        background: none !important;
+    }
+
+    a, a:visited, a:link {
+        text-decoration: underline !important;
+    }
+}
+

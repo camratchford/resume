@@ -1,0 +1,212 @@
+:root {
+    --grey-almost-black: #1d1d1d;
+    --grey-darkest: #2a2a2a;
+    --grey-dark: #3c3c3c;
+    --grey-grey: #4b4b4b;
+    --grey-light: #989898;
+    --grey-lightest: #d7d7d7;
+    --grey-almost-white: #f1f1f1;
+
+    /*Primary:*/
+    --primary-almost-black: #003337;
+    --primary-darkest: #004d5d;
+    --primary-dark: #00849a;
+    --primary-primary: #00B2CA;
+    --primary-light: #57e8ee;
+    --primary-lightest: #77c2c1;
+    --primary-almost-white: #97eff6;
+
+    /*Dark-Primary:*/
+    --dark-almost-black: #050629;
+    --dark-darkest: #0f1247;
+    --dark-dark: #131b68;
+    --dark-primary: #162ba3;
+    --dark-light: #172ecf;
+    --dark-lightest: #2366e1;
+    --dark-almost-white: #329ffc;
+
+    /*Secondary (Accent):*/
+    --accent-almost-black: #100313;
+    --accent-darkest: #1F0322;
+    --accent-dark: #64485e;
+    --accent-accent: #8E6C88;
+    --accent-light: #b995b3;
+    --accent-lightest: #eec6e8;
+    --accent-almost-white: #ffd7f9;
+
+
+    --alert-almost-black: #41040f;
+    --alert-darkest: #710825;
+    --alert-dark: #ab082d;
+    --alert-alert: #F40552;
+    --alert-light: #ff597e;
+    --alert-lightest: #ff8897;
+    --alert-almost-white: #ffacae;
+
+
+    --warn-almost-black: #363500;
+    --warn-darkest: #7d682d;
+    --warn-dark: #b29e37;
+    --warn-warn: #F4E04D;
+    --warn-light: #f4f02b;
+    --warn-lightest: #f4f26d;
+    --warn-almost-white: #f4efa1;
+
+
+    --success-almost-black: #0b2018;
+    --success-darkest: #23503f;
+    --success-dark: #397160;
+    --success-success: #419076;
+    --success-light: #46a98f;
+    --success-lightest: #49c6ac;
+    --success-almost-white: #97e5d9;
+
+
+    /* Brand Colors */
+    --brand-main : rgb(12, 118, 203);
+}
+
+.theme-light {
+    /*Background */
+    --main-background-color-solid: var(--dark-lightest);
+    --main-background-color-grade1: var(--dark-lightest);
+    --main-background-color-grade2: var(--primary-dark);
+    --main-border-color: var(--grey-almost-black);
+    --header-background-color: var(--primary-primary);
+    --header-border-color: var(--primary-dark);
+
+    --accented-background-color: var(--accent-almost-white);
+    --accented-border-color: var(--accent-light);
+
+    /*Text */
+    --main-text-color: var(--grey-almost-white);
+    --muted-text-color: var(--grey-lightest);
+
+    --inverse-text-color: var(--grey-almost-black);
+
+    /*Buttons */
+    --button-text-color: var(--grey-darkest);
+    --button-primary-text-color: var(--grey-darkest);
+    --button-alert-text-color: var(--grey-darkest);
+
+    --button-background-color: var(--primary-primary);
+    --button-disabled-background-color: var(--primary-dark);
+    --button-border-color: var(--primary-darkest);
+
+    --button-primary-background-color: var(--success-dark);
+    --button-primary-border-color: var(--success-success);
+
+    --button-alert-background-color: var(--alert-almost-white);
+    --button-alert-border-color: var(--alert-alert);
+
+    /*Links*/
+    --active-item-text-color: var(--grey-darkest);
+    --hover-item-text-color: var(--grey-almost-black);
+    --active-item-background-color: var(--primary-lightest);
+    --hover-item-background-color: var(--primary-dark);
+    --link-color: var(--dark-dark);
+    --link-visited-color: var(--accent-darkest);
+
+    /*Menus */
+    --menu-text-color: var(--grey-darkest);
+    --menu-background-color: var(--primary-almost-white);
+
+    /*Forms */
+    --input-text-color: var(--grey-almost-black);
+    --input-border-color: var(--grey-almost-black);
+    --input-background-color: var(--grey-almost-white);
+    --tooltip-background-color: var(--grey-lightest);
+
+    /*Flash Messages */
+    --message-success-background-color: var(--success-almost-white);
+    --message-success-border-color: var(--success-success);
+    --message-success-text-color: var(--grey-darkest);
+
+    --message-warning-text-color: var(--grey-almost-white);
+    --message-warning-background-color: var(--grey-almost-black);
+    --message-warning-border-color: var(--warn-warn);
+
+    --message-danger-text-color: var(--grey-almost-white);
+    --message-danger-background-color: var(--grey-almost-black);
+    --message-danger-border-color: var(--alert-alert);
+
+    --message-info-text-color: var(--grey-almost-white);
+    --message-info-background-color: var(--primary-almost-white);
+    --message-info-border-color: var(--primary-primary);
+
+    /* Scrollbar */
+    --scrollbar-border-color: var(--accent-light);
+
+}
+
+.theme-dark {
+    /*Background */
+    --main-background-color-solid: var(--dark-dark);
+    --main-background-color-grade1: var(--dark-light);
+    --main-background-color-grade2: var(--dark-dark);
+    --main-border-color: var(--grey-darkest);
+    --header-background-color: var(--primary-primary);
+    --header-border-color: var(--primary-dark);
+
+    --accented-background-color: var(--accent-almost-white);
+    --accented-border-color: var(--accent-light);
+
+    /*Text */
+    --main-text-color: var(--grey-almost-white);
+    --muted-text-color: var(--grey-light);
+
+    /*Buttons */
+    --button-text-color: var(--grey-darkest);
+    --button-primary-text-color: var(--grey-darkest);
+    --button-alert-text-color: var(--grey-darkest);
+
+    --button-background-color: var(--primary-primary);
+    --button-disabled-background-color: var(--primary-dark);
+    --button-border-color: var(--primary-darkest);
+
+    --button-primary-background-color: var(--success-dark);
+    --button-primary-border-color: var(--success-success);
+
+    --button-alert-background-color: var(--alert-almost-white);
+    --button-alert-border-color: var(--alert-alert);
+
+    /*Links*/
+    --active-item-text-color: var(--grey-darkest);
+    --hover-item-text-color: var(--grey-almost-black);
+    --active-item-background-color: var(--primary-lightest);
+    --hover-item-background-color: var(--accent-accent);
+    --link-color: var(--accent-light);
+    --link-visited-color: var(--accent-darkest);
+
+    /*Menus */
+    --menu-text-color: var(--grey-darkest);
+    --menu-background-color: var(--primary-almost-white);
+
+    /*Forms */
+    --input-text-color: var(--grey-almost-black);
+    --input-border-color: var(--grey-almost-black);
+    --input-background-color: var(--grey-almost-white);
+    --tooltip-background-color: var(--grey-lightest);
+
+    /*Flash Messages */
+    --message-success-text-color: var(--grey-almost-black);
+    --message-success-background-color: var(--success-almost-white);
+    --message-success-border-color: var(--success-success);
+
+    --message-warning-text-color: var(--grey-almost-black);
+    --message-warning-background-color: var(--warn-almost-white);
+    --message-warning-border-color: var(--warn-warn);
+
+    --message-danger-text-color: var(--grey-almost-black);
+    --message-danger-background-color: var(--alert-almost-white);
+    --message-danger-border-color: var(--alert-alert);
+
+    --message-info-text-color: var(--grey-almost-black);
+    --message-info-background-color: var(--primary-almost-white);
+    --message-info-border-color: var(--primary-primary);
+
+    /* Scrollbar */
+    --scrollbar-border-color: var(--accent-light);
+
+
+}
